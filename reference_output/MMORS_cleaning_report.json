@@ -28,7 +28,9 @@
         "nonBlankRows": 348
       }
     ],
-    "unnecessary_sheets": ["Table1 (3)"],
+    "unnecessary_sheets": [
+      "Table1 (3)"
+    ],
     "row_classification": [
       {
         "sheet": "Marilao",
@@ -163,7 +165,9 @@
     "distinct_raw_station_spellings": 19,
     "distinct_clean_station_names": 13,
     "station_name_or_coordinate_conflicts": 0,
-    "malformed_block_titles": ["CY 20178 DECEMBER"],
+    "malformed_block_titles": [
+      "CY 20178 DECEMBER"
+    ],
     "raw_missing_by_parameter": {
       "do_mg_l": 207,
       "ph": 364,
