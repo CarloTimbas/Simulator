@@ -1,0 +1,20 @@
+{
+  "name": "mmors-water-quality-preprocessing",
+  "version": "1.0.0",
+  "description": "Reproducible Node.js preprocessing pipeline for the MMORS Water Quality Results (2012-2018) dataset",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "module1": "node src/index.js --until=1",
+    "module2": "node src/index.js --until=2",
+    "module3": "node src/index.js --until=3",
+    "verify": "node src/verify.js",
+    "figures": "node src/figures.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
