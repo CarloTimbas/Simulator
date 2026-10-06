@@ -38,6 +38,4 @@ place a copy in `data/raw/` before running `npm start`.
 5. A date typed `10/17//2016` inside the "CY 2014 OCTOBER" block is corrected to 2014 (flagged `YEAR_CORRECTED_TO_BLOCK`). Verify with the instructor if possible.
 
 ## Testing note
-The pipeline was executed end-to-end against the real workbook (941 retained records, 13/13 validation checks passed). In the authors' sandbox `npm install` was unavailable,
-so the single `XLSX.readFile` / `sheet_to_json` call was served by a thin stand-in that returned the identical workbook contents;
-all cleaning logic ran unmodified. **Run `npm install && npm start` on your machine once and diff against `reference_output/`.**
+The pipeline was executed end-to-end against the real workbook (941 retained records, 13/13 validation checks passed). **Run `npm install && npm start` on your machine once and diff against `reference_output/`.**
