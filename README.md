@@ -6,7 +6,8 @@ Quartiles, medians, skewness, date parsing and CSV writing are hand-written in `
 ## Run it
 ```bash
 npm install                       # installs xlsx
-# put the original workbook here:  data/raw/MMORS_water_quality_results_2012-2018_orig.xlsx
+# clean clones must supply the original workbook here:
+# data/raw/MMORS_water_quality_results_2012-2018_orig.xlsx
 npm start                         # == node src/index.js   (all three modules)
 node src/index.js --until=1       # stop after Module 1 (nice for the BEFORE segment of the video)
 node src/index.js --until=2       # stop after Module 2
@@ -14,6 +15,9 @@ node src/figures.js               # OPTIONAL: SVG charts for the report -> data/
 ```
 Outputs (in `data/processed/`): `MMORS_water_quality_cleaned.csv` (analysis-ready), `MMORS_cleaning_report.json` (every before/after number used in the report).
 `reference_output/` holds the output produced by the authors' test run, so you can diff your run against it.
+
+The raw `.xlsx` is intentionally ignored by Git. Anyone cloning this repository must
+place a copy in `data/raw/` before running `npm start`.
 
 ## Layout
 | File | Role | Lead / co-authors (see blueprint) |
