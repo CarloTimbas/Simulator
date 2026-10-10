@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="290" viewBox="0 0 820 290" role="img" aria-label="Record retention during preprocessing" font-family="Arial, sans-serif">
+  <rect width="100%" height="100%" fill="#fff"/>
+  <text x="410" y="32" text-anchor="middle" font-size="17" font-weight="bold">Figure 3. Record retention during preprocessing</text>
+  <rect x="50" y="82" width="205" height="100" rx="8" fill="#e8eef5" stroke="#6b7c93" stroke-width="2"/>
+  <text x="152" y="119" text-anchor="middle" font-size="14">Raw station records</text><text x="152" y="153" text-anchor="middle" font-size="24" font-weight="bold">1,147</text>
+  <line x1="255" y1="132" x2="360" y2="132" stroke="#607080" stroke-width="3"/><polygon points="360,132 347,124 347,140" fill="#607080"/>
+  <rect x="370" y="69" width="205" height="126" rx="8" fill="#f9e8df" stroke="#c47754" stroke-width="2"/>
+  <text x="472" y="105" text-anchor="middle" font-size="14">Empty template rows removed</text><text x="472" y="139" text-anchor="middle" font-size="24" font-weight="bold">206</text>
+  <text x="472" y="166" text-anchor="middle" font-size="12">0 duplicates removed</text>
+  <line x1="575" y1="132" x2="640" y2="132" stroke="#607080" stroke-width="3"/><polygon points="640,132 627,124 627,140" fill="#607080"/>
+  <rect x="650" y="82" width="145" height="100" rx="8" fill="#e2f0e7" stroke="#5d9270" stroke-width="2"/>
+  <text x="722" y="119" text-anchor="middle" font-size="14">Records retained</text><text x="722" y="153" text-anchor="middle" font-size="24" font-weight="bold">941</text>
+  <text x="410" y="235" text-anchor="middle" font-size="12" fill="#444">13 of the removed rows were explicitly labeled “NO SAMPLING CONDUCTED.”</text>
+  <text x="410" y="257" text-anchor="middle" font-size="12" fill="#444">No duplicate groups were detected; removed rows were empty templates.</text></svg>
